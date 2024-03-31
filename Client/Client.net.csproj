@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core">
+      <HintPath>..\References\Client\CitizenFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CitizenFX.FiveM">
+      <HintPath>..\References\Client\CitizenFX.FiveM.dll</HintPath>
+    </Reference>
+    <Reference Include="CitizenFX.FiveM.Native">
+      <HintPath>..\References\Client\CitizenFX.FiveM.Native.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

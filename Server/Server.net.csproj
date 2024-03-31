@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core">
+      <HintPath>..\References\Server\CitizenFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CitizenFX.Server">
+      <HintPath>..\References\Server\CitizenFX.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
